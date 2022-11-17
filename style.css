@@ -72,17 +72,18 @@ body {
   margin-block-start: 48px;
   font-size: 18px;
   font-weight: bold;
+  color: var(--very-dark-desaturated-blue);
 }
 
 .age {
   margin-inline-start: 4px;
   font-weight: normal;
-  color: var(--dark-gray);
+  color: var(--dark-grayish-blue);
 }
 
 .main-info__location {
   font-size: 0.9rem;
-  color: var(--dark-gray);
+  color: var(--dark-grayish-blue);
 }
 
 .content__stats {
@@ -95,6 +96,7 @@ body {
 .details__num {
   font-size: 18px;
   font-weight: bold;
+  color: var(--very-dark-desaturated-blue);
 }
 
 .details__type {
@@ -108,4 +110,15 @@ body {
   .content__stats {
     padding: 24px 36px;
   }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 4px;
+  color: white;
+}
+.attribution a {
+  color: inherit;
 }
